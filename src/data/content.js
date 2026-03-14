@@ -373,7 +373,6 @@ export const footerLinks = {
   contact: [
     { label: "Contact Us", href: "/#cta" },
     { label: "Request Demo", href: "/#cta" },
-    { label: "Partnership", href: "/#cta" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy-policy" },

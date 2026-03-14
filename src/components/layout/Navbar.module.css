@@ -131,22 +131,22 @@
 
 /* ---------- dark-background auto-adapt ---------- */
 
-.darkBg:not(.scrolled) .navLink {
+.darkBg:not(.scrolled):not(.menuActive) .navLink {
   color: rgba(255, 255, 255, 0.9);
 }
 
-.darkBg:not(.scrolled) .navLink:hover {
+.darkBg:not(.scrolled):not(.menuActive) .navLink:hover {
   color: #ffffff;
 }
 
-.darkBg:not(.scrolled) .active {
+.darkBg:not(.scrolled):not(.menuActive) .active {
   color: var(--color-primary-light);
 }
 
-.darkBg:not(.scrolled) .navLink::after {
+.darkBg:not(.scrolled):not(.menuActive) .navLink::after {
   background: var(--color-primary-light);
 }
 
-.darkBg:not(.scrolled) .menuBtn {
+.darkBg:not(.scrolled):not(.menuActive) .menuBtn {
   color: #ffffff;
 }
