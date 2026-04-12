@@ -33,9 +33,19 @@ export default function Footer() {
           <div className={styles.linkGroup}>
             <h4 className={styles.linkTitle}>Contact</h4>
             {footerLinks.contact.map((link) => (
-              <Link key={link.label} to={link.href} className={styles.link}>
+              <a
+                key={link.label}
+                href={link.href}
+                className={styles.link}
+                target={link.href.startsWith("http") ? "_blank" : undefined}
+                rel={
+                  link.href.startsWith("http")
+                    ? "noopener noreferrer"
+                    : undefined
+                }
+              >
                 {link.label}
-              </Link>
+              </a>
             ))}
           </div>
 

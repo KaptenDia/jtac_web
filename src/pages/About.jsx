@@ -207,7 +207,11 @@ export default function About() {
             title="Ready to Transform Your Organization?"
             subtitle="Discover how JTAC's immersive technology solutions can elevate your training and learning programs."
           />
-          <Button to="/#cta" variant="primary" size="lg">
+          <Button
+            href="mailto:support@jtactechnology.com?subject=Request%20a%20Demo"
+            variant="primary"
+            size="lg"
+          >
             Request a Demo
           </Button>
         </div>

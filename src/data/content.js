@@ -371,8 +371,12 @@ export const footerLinks = {
     { label: "Industries", href: "/#solutions" },
   ],
   contact: [
-    { label: "Contact Us", href: "/#cta" },
-    { label: "Request Demo", href: "/#cta" },
+    { label: "Contact Us", href: "mailto:support@jtactechnology.com" },
+    {
+      label: "Request Demo",
+      href: "mailto:support@jtactechnology.com?subject=Request%20a%20Demo",
+    },
+    { label: "WhatsApp", href: "https://wa.me/6285219945116" },
   ],
   legal: [
     { label: "Privacy Policy", href: "/privacy-policy" },

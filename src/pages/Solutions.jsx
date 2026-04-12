@@ -106,7 +106,11 @@ export default function Solutions() {
             Discover how JTAC Immersive Technology can help your organization
             build safer, smarter, and more effective training environments.
           </p>
-          <Button to="/#cta" variant="primary" size="lg">
+          <Button
+            href="mailto:support@jtactechnology.com?subject=Request%20a%20Demo"
+            variant="primary"
+            size="lg"
+          >
             Request a Demo
           </Button>
         </div>

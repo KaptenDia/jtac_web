@@ -24,7 +24,11 @@ export default function Hero() {
           train, and interact with complex environments.
         </p>
         <div className={styles.actions}>
-          <Button to="/#cta" variant="primary" size="lg">
+          <Button
+            href="mailto:support@jtactechnology.com?subject=Request%20a%20Demo"
+            variant="primary"
+            size="lg"
+          >
             Request a Demo
           </Button>
           <Button to="/solutions" variant="secondary" size="lg">

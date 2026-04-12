@@ -16,7 +16,11 @@ export default function CtaSection() {
           Discover how immersive technology can transform the way your
           organization trains, learns, and develops critical capabilities.
         </p>
-        <Button to="/#cta" variant="primary" size="lg">
+        <Button
+          href="mailto:support@jtactechnology.com?subject=Request%20a%20Demo"
+          variant="primary"
+          size="lg"
+        >
           Request a Demo
         </Button>
       </div>

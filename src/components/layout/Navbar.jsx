@@ -174,7 +174,11 @@ export default function Navbar() {
             </Link>
           ))}
           <div className={styles.navCta}>
-            <Button to="/#cta" variant="primary" size="sm">
+            <Button
+              href="mailto:support@jtactechnology.com?subject=Request%20a%20Demo"
+              variant="primary"
+              size="sm"
+            >
               Request a Demo
             </Button>
           </div>
