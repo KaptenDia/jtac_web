@@ -159,7 +159,33 @@ export default function PrivacyPolicy() {
           </p>
           <p className={styles.contactText}>
             For questions regarding this Privacy Policy or how JTAC handles
-            personal data, please contact us through our website.
+            personal data, please contact us through the following channels:
+          </p>
+          <p className={styles.contactText}>
+            Email:{" "}
+            <a href="mailto:support@jtactechnology.com">
+              support@jtactechnology.com
+            </a>
+          </p>
+          <p className={styles.contactText}>
+            WhatsApp:{" "}
+            <a
+              href="https://wa.me/6285219945116"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              +62 852-1994-5116
+            </a>
+          </p>
+          <p className={styles.contactText}>
+            Website:{" "}
+            <a
+              href="https://jtactechnology.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              jtactechnology.com
+            </a>
           </p>
         </div>
       </div>
